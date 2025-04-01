@@ -25,8 +25,10 @@ This is a React-based application for user management that integrates with the R
 ---
 ## Installation and Setup
 
-1️⃣ Clone the Repository
+1️⃣ Clone the Repository:
+  ```bash
 (https://github.com/Khushboo0820/Employee-Application.git)
+   ```
 
 2. Install dependencies:
     ```bash
