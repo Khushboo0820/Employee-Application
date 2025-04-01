@@ -25,7 +25,7 @@ This is a React-based application for user management that integrates with the R
 ---
 ## Installation and Setup
 
-1️⃣ Clone the Repository:
+1. Clone the Repository:
   ```bash
 (https://github.com/Khushboo0820/Employee-Application.git)
    ```
@@ -34,14 +34,11 @@ This is a React-based application for user management that integrates with the R
     ```bash
     npm install
     ```
-
-2️⃣ Install Dependencies
-Frontend
-npm install
-npm run dev
-
-The application will be accessible at [http://localhost:5173](http://localhost:5173).
-
+    
+The application will be accessible at 
+  ```
+( http://localhost:3000).
+  ```
 ---
 
 ## API Endpoints Used
