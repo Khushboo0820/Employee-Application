@@ -2,11 +2,11 @@
 // src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Login from './components/Login';
-import UserList from './components/UserList';
-// import EditUser from './components/EditUser';
-import Header from './components/Header';
+import Login from './components/login.js';
 
+import UserList from './components/UserList.js';
+
+import Header from "./components/Header.js";
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('token'); // Check if user is logged in
   return token ? children : <Navigate to="/login" replace />; // Redirect if not logged in
